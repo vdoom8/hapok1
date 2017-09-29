@@ -1,22 +1,31 @@
 html {
-	margin: 0;
-	padding: 0;
-	position: relative;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #C6C2C0;
 }
+
+body {
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 div {
     display: block;
 }
+
 nav {
     overflow: hidden;
     float: right;
-    position: fixed;
+    position: relative;
     right: 0;
     top: 0;
-    padding: 10px;
-    background: #E2E9ED;
-    color: #0F1108;
+    background: #0D1B1E;
+    color: #EBEBED;
     width: 100%;
 }
+
 nav li {
     float: right;
     list-style: none;
@@ -27,16 +36,47 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     padding: 0 20px;
-    color: #0F1108;
-    text-shadow: 0 1px 0 white;
+    color: #EBEBED;
 }
 
 nav li a:hover {
-    color: #0F1108;
+    color: #EBEBED;
 }
 
 #bg {
-  width: 100%;
-  height: 100%;
- 
+    width: 100%;
+    height: 100%;
+
+}
+
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #0D1B1E;
+    color: #EBEBED;
+    width: 99%;
+}
+
+.image {
+    position: relative;
+    display: table-row;
+
+
+}
+
+#room1 {
+    height: 33%;
+    width: 33%;
+}
+
+#room2 {
+    height: 33%;
+    width: 33%;
+}
+
+#rest1 {
+    height: 33%;
+    width: 33%;
 }
