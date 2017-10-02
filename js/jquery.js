@@ -23,7 +23,7 @@ $(function() {
             method: "POST",
             data: { 
                 clientName: $('#client-name').val(),
-                accountBalance: $('#account-balance').val()},
+                accountBalance: $('#telefone').val()},
             dataType: "json"
         }).done(function() {
             form.reset();
