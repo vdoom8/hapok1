@@ -52,10 +52,10 @@ nav a:hover {
     position: relative;
     left: 0;
     bottom: 0;
-    padding: 10px;
+    
     background: #251603;
     color: #EBEBED;
-    width: 99%;
+    width: 100%;
 }
 
 .image {
